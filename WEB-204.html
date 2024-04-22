@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMSO</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            
+            background-color: #000000;
+            padding: 20px;
+            align-items: center;
+            text-align: center;
+        }
+        .navbar ul{
+            list-style-type: none;
+        }
+        .navbar li{
+            display: inline;
+            margin-right: 20px;
+        }
+        .navbar ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        .navbar ul li a:hover{
+            text-decoration: underline;
+        }
+        .Login{
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            border-color: rgb(255, 255, 255);
+        }
+        .Login:hover{
+            background-color: black;
+        }
+        .Sign{
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            
+        }
+        .Sign:hover{
+            background-color: black;
+            border-color: white;
+        }
+        .main{
+            text-align: center;
+            padding: 50px 0;
+            background-color: #000000;
+            
+        }
+        h1{
+            color: white;
+        }
+        h2{
+            color: white;
+        }
+        .input-container{
+            margin-top: 20px;
+        }
+        .input-container input{
+            padding: 10px;
+            border: 1px solid ;
+            border-radius: 5px;
+        }
+        .input-container button{
+            padding: 10px 20px;
+            background-color: rgb(130, 65, 204);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .input-container button:hover{
+            background-color: #0056b3;
+        }
+        .features{
+            background-color: #000000;
+            color: white;
+            align-items: center;
+            text-align: center;
+        }
+        .sameclass{
+            box-shadow: rgba(69, 71, 73, 0.2) 0px 8px 24px;
+            color: white;
+            height: auto;
+            width: 200px;
+            display: inline-block;
+            padding-left: 100px;
+            display:flex-wrapped; 
+        }
+        .pricing{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 0;
+            background-color: #000000;
+        }
+        .pricing-card{
+            background-color: #000000;
+            padding: 20px;
+            margin: 0 20px;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+        
+        .pricing-card h2{
+            margin-bottom: 10px;
+        }
+        .pricing-card p{
+            color:#666;
+            margin-bottom: 20px;
+        }
+        .pricing-card pre{
+            color:#666;
+            margin-bottom: 20px;
+        }
+        .pricing-card ul{
+            list-style-type: none;
+            padding:0;
+        }
+        .pricing-card ul li{
+            margin-bottom: 10px;
+            color: white;
+            border-color: white;
+        }
+        .pricing-card button{
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: 1px solid;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .pricing-card button:hover{
+            background-color: #0056b3;
+        }
+        footer{
+            background-color: rgb(65, 65, 65);
+            padding: 20px;
+        }
+        .footer-content{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .footer-section{
+            flex: 1;
+        }
+        .footer-section h4{
+            margin-top: 0;
+        }
+        .footer-section ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        .footer-section ul li {
+            margin-bottom: 5px;
+            
+        }
+        .footer-bottom{
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">UMSO</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">showcase</a></li>
+                <li><a href="#" class="Login">Login</a></li>
+                <li><a href="#" class="Sign">Sign Up</a></li>
+            </ul>
+        </nav>
+        <section class="main">
+            <div class="input-container">
+                <h1 >Get Your </h1>
+                <h1>AI Generated Websites</h1>
+                <h1>In Seconds</h1>
+                <h4>Give it try right below, without having to sign up!</h4>
+            </div>
+            <input type="text" placeholder="Enter Your Ideas">
+            <button>Generate<i class = "fa fa-arrow-right"></i></button>
+        </section>
+        <section class="features">
+            <div>
+                <p>Features</p>
+                <h3>Generating your website is just the start.</h3>
+                <h3>With Umso you can go all the way.</h3>
+                
+            </div>
+            <div class="sameclass">
+                <p>Analytics</p><br>
+                <p>
+                    Monitor the performance of your startup and base decisions on data. Get website analytics with no extra setup.
+                </p>    
+                <button>Learn More</button>
+            </div>
+            <div class="sameclass">
+                <p>Custom Form </p><br>
+                <p>
+                    Don't launch to crickets – build an audience for your startup. Collect leads directly within Umso, without any 3rd-party services.
+                </p>    
+                <button>Learn More</button>
+            </div>
+            <div class="sameclass">
+                <p>User Management</p><br>
+                <p>
+                    Enable collaborative work by giving guests access to your sites, projects & other resources.
+                </p>    
+                <button>Learn More</button>
+            </div>
+            <div class="sameclass">
+                <p>Blogs        </p><br>
+                <p>
+                    Produce new content, extend your reach, start appearing on Google. Add a simple blog to your site with a few clicks
+                                </p>    
+                <button>Learn More</button>
+            </div>
+            <div class="sameclass">
+                <p>Cookie Solution
+                </p><br>
+                <p>
+                    Set up cookie banners that help you respect your visitor's privacy. This is especially important for Europe.
+                </p>    
+                <button>Learn More</button>
+            </div>
+            <div class="sameclass">
+                <p>Multilingual Sites
+                </p><br>
+                <p>
+                    Easily manage your website in multiple languages. With this feature you can offer your site to everyone.                </p>    
+                <button>Learn More</button>
+            </div><br>
+            <p style="align-items: center; text-align: center;">"Umso is far away the easiest Landing page builder I've ever used. It is very intuitive and you can set up a test for a new project in less than one hour without any knowledge in coding. Even if it is simple, it is very robust and there all options needed."</p>
+        </section>
+        <section class="pricing">
+           
+            <div class="pricing-card">
+                <p><b>Pricing</b></p>
+                <h2>Pro</h2>
+                <p>$20  <sup>/ site Month(billed annually)</sup></p>
+                <ul>
+                    <li>Custom Domains</li>
+                    <li>GDPR Solution</li>
+                    <li>Beautiful Site Design</li>
+                    <li>Super-Fast Hosting</li>
+                    <li>Analytics</li>
+                    <li>Custom Forms </li>
+                    <li>Blogging</li>
+                </ul>
+                <button>Get started</button>
+            </div>
+            <div class="pricing-card">
+                <h2>Basic</h2>
+                <h2>Free</h2>
+                <pre>Everything from Pro, except:
+                No Custom Domains
+                "Made with Umso" Branding
+                No credit card required</pre>
+                <button>Get started</button>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <h3>2024 Umso Software Inc.</h3>
+            </div>
+            <div class="footer-section">
+                <h4>Features</h4>
+                <ul>
+                    <li>Custom Forms</li>
+                    <li>Analytics</li>
+                    <li>Cookie Solution</li>
+                    <li>Blogs</li>
+                    <li>Multilingual Sites</li>
+                    <li>User Management</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li>Community</li>
+                    <li>Blog</li>
+                    <li>FAQ</li>
+                    <li>Status</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Use</li>
+                    <li>Security Policy</li>
+                    <li>DPA</li>
+                    
+                </ul>
+            </div>
+        </footer>
+    </header>
+</body>
+</html>
